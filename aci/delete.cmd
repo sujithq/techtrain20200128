@@ -1,0 +1,1 @@
+az container delete -n securetest -g cloudbrew2019 -y

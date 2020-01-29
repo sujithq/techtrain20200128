@@ -1,0 +1,1 @@
+docker image build -t sleeproot:1.0 -f root.dockerfile .

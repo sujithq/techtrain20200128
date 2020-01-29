@@ -1,0 +1,1 @@
+docker build -t tip8-jre-slim -f dockerfile-8-jre-slim .

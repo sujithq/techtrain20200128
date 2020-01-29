@@ -1,0 +1,1 @@
+docker build -t tip11-before -f dockerfile-before .

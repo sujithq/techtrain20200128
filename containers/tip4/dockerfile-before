@@ -1,0 +1,6 @@
+FROM debian:stretch
+RUN apt-get update \
+    && apt-get -y install \
+        openjdk-8-jdk ssh vim
+COPY ./gs-maven-0.1.0.jar app.jar
+CMD [ "java", "-jar", "app.jar" ]

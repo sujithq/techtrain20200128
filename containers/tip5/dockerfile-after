@@ -1,0 +1,7 @@
+FROM debian:stretch
+RUN apt-get update \
+    && apt-get -y install --no-install-recommends\
+        openjdk-8-jdk \
+    && rm -rf /var/lib/apt/lists/*
+COPY ./gs-maven-0.1.0.jar app.jar
+CMD [ "java", "-jar", "app.jar" ]

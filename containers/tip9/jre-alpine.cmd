@@ -1,0 +1,1 @@
+docker build -t tip9-jre-alpine -f dockerfile-8-jre-alpine .

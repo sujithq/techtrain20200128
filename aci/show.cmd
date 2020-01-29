@@ -1,0 +1,1 @@
+az container show --resource-group cloudbrew2019 --name securetest --query containers[0].environmentVariables

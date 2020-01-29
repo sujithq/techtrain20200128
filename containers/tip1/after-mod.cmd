@@ -1,0 +1,1 @@
+docker build -t tip1-after-mod -f dockerfile-after-mod .

@@ -1,0 +1,1 @@
+docker build -t tip10-after -f dockerfile-after .

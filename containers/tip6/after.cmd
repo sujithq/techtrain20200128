@@ -1,0 +1,1 @@
+docker build -t tip6-after -f dockerfile-after .
